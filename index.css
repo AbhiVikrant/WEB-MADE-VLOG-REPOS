@@ -1,0 +1,71 @@
+html , body{
+    width: 100%;
+    height: 100%;
+    background-color: darkkhaki;
+}
+.pageHeader_container{
+    width: 100%;
+    height: 100%;
+    padding: 20;
+}
+.site-page-header {
+    border: 1px solid rgb(235, 237, 240);
+  }
+  
+.const gridStyle = {
+    width: '25%',
+    textAlign: 'center',
+  }
+  .Article_Container{
+    margin-Top : 30px; border: 3px solid green
+  }
+  .post_title_container{
+    margin-top: 1px;
+    margin-left: 2px;
+    text-align: center;
+  }
+  .button_container{
+    float: right;
+    size: large;
+    margin-top: 2px;
+    margin-left: 2%;
+
+    padding-left: 10cm;
+  }
+  .site-card-border-less-wrapper {
+    
+    background: #ececec;
+    padding: 20px;
+  }
+  .menu_container{
+    margin-bottom: 20px;
+  }
+  .create_Post_Link_Nav_container{
+    float: right;
+    padding-right: 10%;
+  }
+  .read_Link_Nav_container{
+    padding-left: 10%;
+
+  }
+  h1{
+    color: red;
+  }
+  .main_heading{
+    background-color: blue;
+    text-align: center;
+    text-transform: full-width;
+    text-rendering: geometricPrecision;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: -2s;
+  }
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
